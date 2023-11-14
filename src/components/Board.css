@@ -1,0 +1,50 @@
+
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .user-group {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  .user-group.columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .ticket {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ticket-content {
+    flex: 1;
+  }
+  
+  .ticket button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    cursor: pointer;
+  }
+  
+ 
+

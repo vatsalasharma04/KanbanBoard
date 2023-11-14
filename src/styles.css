@@ -1,0 +1,79 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F5F8;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .board {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .ticket {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .priority-0 {
+    background-color: #e0e0e0;
+  }
+  
+  .priority-1 {
+    background-color: #ffc107;
+  }
+  
+  .priority-2 {
+    background-color: #007bff;
+  }
+  
+  .priority-3 {
+    background-color: #dc3545;
+  }
+  
+  .priority-4 {
+    background-color: #ff0000;
+  }
+ 
+
+.ticket {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .ticket-content {
+    flex-grow: 1;
+  }
+  
+  button {
+    background-color: #787C83;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #44474b;
+  }
+  
